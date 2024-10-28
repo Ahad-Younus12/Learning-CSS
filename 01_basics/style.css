@@ -1,0 +1,97 @@
+/* Color Practice */
+
+.colors-practice {
+    border: 2px solid;
+    padding: 5px;
+    margin: 5px;
+}
+
+.colors-practice .background-color h1 {
+    background-color: rgba(175, 23, 64, 0.7);
+    color: #FFF6E3;
+}
+.colors-practice .background-color p {
+    background-color: hsla(359, 60%, 68%, 0.7);
+    color: #FFF6E3;
+}
+
+.text-color h1 {
+    color: #133E87;
+}
+.text-color p {
+    color: #608BC1;
+}
+
+.border-color h1 {
+    border: 5px solid #3ea303;
+}
+.border-color p {
+    border: 5px solid #859F3D;
+}
+
+/* Background Practice */
+
+.background-practice {
+    border: 2px solid;
+    padding: 5px;
+    margin: 5px;
+}
+
+.background-practice .background-color p {
+    background-color: #9963c8;
+}
+
+#bg-color2 {
+    opacity: 0.6;
+}
+/* When using the opacity property to add transparency to the background of an element, 
+all of its child elements inherit the same transparency. This can make the text inside a fully transparent element hard to read. 
+If you do not want to apply opacity to child elements, use RGBA color values.*/
+
+.background-image {
+    padding-right: 250px ;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZoVJGk9nc5LhuuOhWNtvqc-UQJNkSp3_vJw&s);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+}
+
+/* Border Practice */
+
+.border-practice {
+    border: 2px solid;
+    padding: 5px;
+    margin: 5px;
+}
+
+#border-p1 {
+    border-style: dotted;
+    border-width: 10px;
+}
+
+#border-p2 {
+    border-style: solid;
+    border-width: 10px 20px 30px 3px;
+}
+
+#border-p3 {
+    border-style: dashed;
+    border-width: 6px;
+    border-color: #FF76CE #4793AF #A1EEBD;
+}
+
+#border-p4 {
+    border-style: double dashed dotted solid;
+    border-top-color: lightskyblue;
+    border-left-color: red;
+    border-right-color: orange;
+    border-bottom-color: seagreen;
+    border-width: 8px 8px 8px 10px;
+}
+
+#border-p5 {
+    border: 3px solid rgb(15, 151, 235);
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgba(135, 206, 250, 0.796);
+}
