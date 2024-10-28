@@ -95,3 +95,74 @@ If you do not want to apply opacity to child elements, use RGBA color values.*/
     border-radius: 20px;
     background-color: rgba(135, 206, 250, 0.796);
 }
+
+/* Margin Practice */
+
+.margin-practice {
+    border: 2px solid;
+    padding: 5px;
+    margin: 5px;
+}
+
+#margin-p1 {
+    border: 1px solid black;
+    background-color: lightblue;
+    margin-top: 100px;
+    margin-right: 150px;
+    margin-bottom: 120px;
+    margin-left: 80px;
+}
+#margin-p2 {
+    border: 1px solid black;
+    background-color: lightblue;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+} 
+/* You can set the margin property to auto value to horizontally center the element within its container. */
+/* Inherit value lets the margin inherit its value from its parent element */
+
+#margin-h1 {
+    border: 1px solid black;
+    background-color: lightblue;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    margin: 0 0 50px 0;
+} 
+
+#margin-h2 {
+    border: 1px solid black;
+    background-color: lightblue;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+/* Padding Practice */
+
+.padding-practice {
+    border: 2px solid black;
+    padding: 8px;
+    margin: 5px;
+}
+
+#padding-div1 {
+    background-color: yellow;
+    width: 300px;
+}
+
+#padding-div2 {
+    background-color: lightblue;
+    width: 300px;
+    padding: 25px;
+}
+
+#padding-div3 {
+    background-color: #6dbddb;
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+}
