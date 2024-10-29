@@ -166,3 +166,50 @@ If you do not want to apply opacity to child elements, use RGBA color values.*/
     padding: 25px;
     box-sizing: border-box;
 }
+
+/* Height, Width Practice */
+
+.height-width-practice {
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+#wid-hei-outside-div1 {
+    background-color: yellow;
+    height: 300px;
+    width: 80%;
+    margin-top: 20px;
+}
+
+#wid-hei-inside-div1 {
+    background-color: lightblue;
+    height: 200px;
+    width: 50%;
+}
+
+#wid-hei-outside-div2 {
+    background-color: yellow;
+    height: 120px;
+    width: 550px;
+    margin-top: 20px;
+}
+
+#wid-hei-inside-div2 {
+    background-color: lightblue;
+    height: 100px;
+    width: 500px;
+}
+
+#wid-hei-outside-div3 {
+    background-color: yellow;
+    height: 150px;
+    max-width: 550px;
+    margin-top: 20px;
+}
+
+#wid-hei-inside-div3 {
+    background-color: lightblue;
+    height: 100px;
+    max-width: 500px;
+}
