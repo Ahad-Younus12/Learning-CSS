@@ -213,3 +213,26 @@ If you do not want to apply opacity to child elements, use RGBA color values.*/
     height: 100px;
     max-width: 500px;
 }
+
+/* Box Model */
+
+.box-model-practice {
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+#box-model {
+    width: 300px;
+    background-color: lightskyblue;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+#box-model2 {
+    border: 5px solid grey;
+    width: 320px;
+    height: 60px;
+    padding: 10px;
+}
