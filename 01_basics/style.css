@@ -236,3 +236,97 @@ If you do not want to apply opacity to child elements, use RGBA color values.*/
     height: 60px;
     padding: 10px;
 }
+
+.text-practice {
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+#div-body-for-textcolor {
+    background-color: rgb(185, 180, 180);
+    color: #0716f0;
+}
+
+#textcolor-h1 {
+    background-color: yellowgreen;
+    color: #1f5301;
+}
+
+#textcolor-p2 {
+    background-color: rgb(247, 238, 143);
+    color: #f007d1;
+}
+
+#text-align {
+    background-color: rgb(227, 224, 224);
+}
+
+#textalign-h1 {
+    text-align: center;
+}
+
+#textalign-h2 {
+    text-align: left;
+}
+
+#textalign-h3 {
+    text-align: right;
+}
+
+#textalign-p1 {
+    border: 1px solid black;
+    padding: 8px;
+    margin: 8px;
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+}
+
+#textalignlast-p1 {
+    text-align-last: right;
+}
+
+#textalignlast-p2 {
+    text-align-last: center;
+}
+
+#textalignlast-p3 {
+    text-align-last: justify;
+}
+
+#textaligndirection-p1 {
+    font-weight: bold;
+    direction: ltr;
+}
+
+#textaligndirection-p2 {
+    font-weight: bold;
+    direction: rtl;
+}
+
+#textaligndirection-p3 {
+    font-weight: bold;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+#textalignverticalimage-p1 {
+    vertical-align: baseline;
+}
+
+#textalignverticalimage-p2 {
+    vertical-align: text-top;
+}
+
+#textalignverticalimage-p3 {
+    vertical-align: super;
+}
+
+#textalignverticalimage-p4 {
+    vertical-align: text-bottom;
+}
+
+#textalignverticalimage-p5 {
+    vertical-align: sub;
+}

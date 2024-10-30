@@ -87,7 +87,8 @@
             <p id="margin-p1">This paragraph has a top margin of 100px, a right margin of 150px, a bottom margin of
                 120px, and a left margin of 80px.</p>
             <p id="margin-p2">This paragraph has a auto margin value.</p>
-            <p style="font-weight: bold;">**In the example below, the h1 element has a bottom margin of 50px and the h2 element has a top margin of 20px.
+            <p style="font-weight: bold;">**In the example below, the h1 element has a bottom margin of 50px and the h2
+                element has a top margin of 20px.
                 So, the vertical margin between h1 and h2 should have been 70px (50px + 20px). However, due to margin
                 collapse, the actual margin ends up being 50px. <!--this is called margin collapse-->
             </p>
@@ -97,15 +98,15 @@
     </div>
 
     <!-- Padding Practice -->
-     <div class="padding-practice">
+    <div class="padding-practice">
         <div id="padding-div1">This div width is 300px</div><br>
         <div id="padding-div2">The width of this div is 350px, even though it is defined as 300px in the CSS.</div><br>
         <!-- To keep the width at 300px, no matter the amount of padding, you can use the box-sizing property. This causes the element to maintain its actual width. -->
-         <div id="padding-div3">This Div is also 300px but with padding</div>
-     </div>
+        <div id="padding-div3">This Div is also 300px but with padding</div>
+    </div>
 
-     <!-- Height, Width and Max-Width Practice -->
-      <div class="height-width-practice">
+    <!-- Height, Width and Max-Width Practice -->
+    <div class="height-width-practice">
         <div id="wid-hei-outside-div1">
             <div id="wid-hei-inside-div1">This div element has a height of 200px and a width of 50%.</div>
         </div>
@@ -116,12 +117,13 @@
             <p style="font-weight: bold ;">Max Width:</p>
             <div id="wid-hei-inside-div3">This div element has a height of 100px and a max-width of 500px.</div>
         </div>
-      </div>
+    </div>
 
-      <!-- Box Model-->
+    <!-- Box Model-->
     <div class="box-model-practice">
         <h2>Box Model</h2>
-        <p>The CSS Box Model is essentially a box that wraps around every html element. It consists of: Borders, padding,
+        <p>The CSS Box Model is essentially a box that wraps around every html element. It consists of: Borders,
+            padding,
             marging and actual ,content</p>
         <div id="box-model">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid veritatis, odio explicabo perspiciatis
@@ -134,7 +136,70 @@
         <!-- when you set the width and height of an element, you just set it for content area. -->
 
         <div id="box-model2">
-            the content area is only 320px but the total width is 350px. whereas the height is 60px and the total height is 90px.
+            the content area is only 320px but the total width is 350px. whereas the height is 60px and the total height
+            is 90px.
+        </div>
+    </div>
+
+    <!-- Text Practice -->
+    <div class="text-practice">
+        <div id="text-color">
+            <div id="div-body-for-textcolor">
+                <h1 id="textcolor-h1">The Heading</h1>
+                <p id="textcolor-p1">This is the brief paragraph of CSS</p>
+                <p id="textcolor-p2">This is the brief paragraph of CSS</p>
+            </div>
+        </div>
+        <div id="text-align">
+            <h1 id="textalign-h1">The Heading</h1>
+            <h1 id="textalign-h2">The Heading</h1>
+            <h1 id="textalign-h3">The Heading</h1>
+            <p id="textalign-p1">In my younger and more vulnerable years my father gave me some advice that I've been
+                turning over in my
+                mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the
+                people in this world haven't had the advantages that you've had.'
+            </p>
+            <h1>The text-align-last Property</h1>
+
+            <h2>text-align-last: right:</h2>
+            <p id="textalignlast-p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat
+                pulvinar, at
+                pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+            </p>
+
+            <h2>text-align-last: center:</h2>
+            <p id="textalignlast-p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat
+                pulvinar, at
+                pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+            </p>
+
+            <h2>text-align-last: justify:</h2>
+            <p id="textalignlast-p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat
+                pulvinar, at
+                pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+            </p>
+
+            <h1>Text direction and unicode-bidi:</h1>
+            <p id="textaligndirection-p1">This text has direction from left to right(ltr)</p>
+            <p id="textaligndirection-p2">This text has direction from right to left(ltr)</p>
+            <p id="textaligndirection-p3">This text has direction from right to left with unicode-bidi</p>
+
+            <h1>The vertical-align Property</h1>
+
+            <h2>vertical-align: baseline (default):</h2>
+            <p>An <img id="textalignverticalimage-p1" src="../image, videos files/blue box.png" width="9" height="9"> image with a default (baseline) alignment.</p>
+
+            <h2>vertical-align: text-top:</h2>
+            <p>An <img id="textalignverticalimage-p2" src="../image, videos files/blue box.png" width="9" height="9"> image with a text-top alignment.</p>
+
+            <h2>vertical-align: super:</h2>
+            <p>An <img id="textalignverticalimage-p3" src="../image, videos files/blue box.png" width="9" height="9"> image with a super alignment.</p>
+
+            <h2>vertical-align: text-bottom:</h2>
+            <p>An <img id="textalignverticalimage-p4" src="../image, videos files/blue box.png" width="9" height="9"> image with a text-bottom alignment.</p>
+
+            <h2>vertical-align: sub:</h2>
+            <p>An <img id="textalignverticalimage-p5" src="../image, videos files/blue box.png" width="9" height="9"> image with a sub alignment.</p>
         </div>
     </div>
 
