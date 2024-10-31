@@ -248,6 +248,8 @@ If you do not want to apply opacity to child elements, use RGBA color values.*/
     padding: 10px;
 }
 
+/* Text Practice */
+
 .text-practice {
     border: 2px solid black;
     padding: 5px;
@@ -341,3 +343,121 @@ If you do not want to apply opacity to child elements, use RGBA color values.*/
 #textalignverticalimage-p5 {
     vertical-align: sub;
 }
+
+#text-decoration {
+    background-color: rgb(236, 231, 182);
+    padding: 8px;
+}
+
+#textdecoration-p1 {
+    text-decoration-line: overline;
+    text-decoration-color: rebeccapurple;
+    text-decoration-style: wavy ;
+    text-decoration-thickness: 3px;
+}
+
+#textdecoration-p2 {
+    text-decoration-line: line-through;
+    text-decoration-color: rebeccapurple;
+    text-decoration-style: dashed ;
+    text-decoration-thickness: 2px;
+}
+
+#textdecoration-p3 {
+    text-decoration-line: underline;
+    text-decoration-color: rebeccapurple;
+    text-decoration-style: dotted ;
+    text-decoration-thickness: 3px;
+}
+
+#textdecoration-p4 {
+    text-decoration-line: overline underline;
+    text-decoration-color: rebeccapurple;
+    text-decoration-style: double ;
+    text-decoration-thickness: 2px;
+}
+
+#textdecoration-p5 >a {
+    text-decoration: none;
+    color: red;
+    font-style: italic;
+}
+
+#textdecoration-p5 {
+    text-decoration: underline rgb(146, 214, 166) double 2px;
+    font-weight: bold;
+}
+
+#text-transformation {
+    background-color: #d8fefcae;
+    padding: 5px;
+}
+
+#texttransformation-p1 {
+    text-transform: uppercase;
+}
+
+#texttransformation-p2 {
+    text-transform: lowercase;
+}
+
+#texttransformation-p3 {
+    text-transform: capitalize;
+}
+
+#text-spacing {
+    background-color: rgba(228, 254, 220, 0.778);
+    padding: 5px;
+}
+
+#text-indent {
+    text-indent: 50px;
+}
+
+#letterspacing-h1 {
+    letter-spacing: 5px;
+}
+
+#letterspacing-h2 {
+    letter-spacing: -2px;
+}
+
+#lineheight-smaller {
+    line-height: 0.8 ;
+}
+
+#lineheight-bigger {
+    line-height: 1.8;
+}
+
+#wordspace-big {
+    word-spacing: 8px;
+}
+
+#wordspace-small {
+    word-spacing: -3px;
+}
+
+#white-space {
+    white-space: nowrap;
+}
+
+#text-shadow {
+    background-color: #afe3f6;
+    padding: 5px;
+}
+
+#textshadow-h1 {
+    text-shadow: 2px 0px 4px red;
+}
+
+/* first write horizontal shadow, then vertical shadow, then blur effect then color */
+
+#textshadow-h2 {
+    text-shadow: 0px 0px 4px orangered, 1px 0px 6px yellow;
+}
+
+#textshadow-h3 {
+    text-shadow: 0px 0px 8px rgba(6, 227, 54, 0.795), 1px 1px 8px rgba(230, 126, 29, 0.848), 0px 3px 3px rgb(1, 1, 255); 
+}
+/* You can also add 2,3 dofferent color effets */
