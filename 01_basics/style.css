@@ -461,3 +461,56 @@ If you do not want to apply opacity to child elements, use RGBA color values.*/
     text-shadow: 0px 0px 8px rgba(6, 227, 54, 0.795), 1px 1px 8px rgba(230, 126, 29, 0.848), 0px 3px 3px rgb(1, 1, 255); 
 }
 /* You can also add 2,3 dofferent color effets */
+
+/* Fonts Practice */
+
+.font-practice {
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+#websafe-fonts {
+    background-color: #eddaf6a9;
+}
+
+#websafefonts-p1 {
+    font-family: Arial, Helvetica, sans-serif; /* Helvetica is fallback font */
+}
+
+#websafefonts-p2 {
+    font-family: Verdana, Tahoma, sans-serif; /* Tahoma is fallback font */
+}
+
+#websafefonts-p3 {
+    font-family: Tahoma, sans-serif;
+}
+
+#websafefonts-p4 {
+    font-family: 'Trebuchet MS', Arial, sans-serif; /* Arial is fallback font */
+}
+
+#websafefonts-p5 {
+    font-family: 'Times New Roman', Times, serif; /* Times is fallback font */
+}
+
+#websafefonts-p6 {
+    font-family: Georgia, serif;
+}
+
+#websafefonts-p7 {
+    font-family: Garamond, serif;
+}
+
+#websafefonts-p8 {
+    font-family: 'Courier New', Courier, monospace; /* Courier is fallback font */
+}
+
+#websafefonts-p9 {
+    font-family: 'Brush script MT', cursive;
+}
+
+/* Fallback fonts means that  that you should add a list of similar "backup fonts" in the font-family property. 
+If the first font does not work, the browser will try the next one, and the next one, and so on. Always end the list with a generic font family name. 
+(like in p1, p2, p4, p5, p8)
+*/
