@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Practice</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Sofia&effect=fire|neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
 </head>
 
 <body>
@@ -231,8 +235,7 @@
         </div>
         <div id="text-decoration">
 
-            <h1>Text-Decoration</h1
-                >
+            <h1>Text-Decoration</h1>
             <p id="textdecoration-p1">Overline text decoration</p>
             <p id="textdecoration-p2">Line-through text decoration</p>
             <p id="textdecoration-p3">Underline text decoration</p>
@@ -314,7 +317,7 @@
     </div>
 
     <!-- Font Practice -->
-     <div class="font-practice">
+    <div class="font-practice">
         <div id="websafe-fonts"> <!--also fallback fonts-->
             <h1>Arial (sans-serif)</h1>
             <p id="websafefonts-p1">Lorem ipsum dolor sit amet | 0 1 2 3 4 5 6 7 8 9</p>
@@ -347,7 +350,63 @@
              If the first font does not work, the browser will try the next one, and the next one, and so on. Always end the list with a generic font family name.-->
 
         </div>
-     </div>
+        <div id="font-style-weight-variant">
+            <h1>Font Style</h1>
+            <p id="fontstyle-p1">This is a paragraph in normal style.</p>
+            <p id="fontstyle-p2">This is a paragraph in italic style.</p>
+            <p id="fontstyle-p3">This is a paragraph in oblique style.</p>
+
+            <h1>Font Weight</h1>
+            <p id="fontweight-p1">This is a paragraph with normal weight.</p>
+            <p id="fontweight-p2">This is a paragraph with bold weight.</p>
+            <p id="fontweight-p3">This is a paragraph with 900 weight.</p>
+            <p id="fontweight-p4">This is a paragraph with lighter weight.</p>
+
+            <div id="font-variant">
+                <h1>Font Variant</h1>
+                <p id="fontvariant-p1">My name is Hege Refsnes. (normal)</p>
+                <p id="fontvariant-p2">My name is Hege Refsnes. (small caps)</p>
+            </div>
+        </div>
+        <div id="font-size">
+            <h1 id="fontsize-h1">This is a heading (px)</h1>
+            <p id="fontsize-p1">this is a paragraph (px)</p>
+
+            <h1 id="fontsize-h2">This is a heading (em)</h1>
+            <p id="fontsize-p2">This is a paragraph (em)</p>
+            <div id="div-body-for-font">
+                <h1>Combination of percent and em</h1>
+                <h2 id="fontsize-h3">This is a heading</h2>
+                <p id="fontsize-p3">This is a paragraph</p>
+            </div>
+
+            <h1 style="font-size: 10vw;">Responsive Font Size</h1>
+            <p style="font-size: 5vw;">This is the pargraph</p>
+        </div>
+        <div id="font-family"> <!--google fonts-->
+            <div id="sofia-font">
+                <h1>Sofia Font</h1>
+                <p>This is a paragraph | 0 1 2 3 4 5 6 7 8 9</p>
+            </div>
+            <div id="audiowide-font">
+                <h1>Audiowide Font</h1>
+                <p>This is a paragraph | 0 1 2 3 4 5 6 7 8 9</p>
+            </div>
+            <!-- Note: Requesting multiple fonts may slow down your web pages! So be careful about that. -->
+            <div id="styling-googlefonts">
+                <h1>Sofia Font</h1>
+                <p>Lorem ipsum dolor sit amet | 123456790</p>
+            </div>
+            <div id="font-effects">
+                <h1 class="font-effect-fire">fire Effect</h1>
+                <h1 class="font-effect-neon">Neon Effect</h1>
+                <h1 class="font-effect-outline">Outline Effect</h1>
+                <h1 class="font-effect-emboss">Emboss Effect</h1>
+                <h1 class="font-effect-shadow-multiple">Multiple Shadow Effect</h1>
+                <!-- First add effect=effectname to the Google API, then add a special class name to the element that is going to use the special effect. The class name always starts with font-effect- and ends with the effectname. -->
+            </div>
+        </div>
+    </div>
 
 </body>
 
