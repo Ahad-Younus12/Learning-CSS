@@ -695,3 +695,11 @@ If the first font does not work, the browser will try the next one, and the next
 #fontshorthand-p1 {
     font: italic small-caps bold 20px/30px 'ubuntu', sans-serif;
 }
+
+/* Icons Practice */
+
+.icons-practice {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
