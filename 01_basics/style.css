@@ -736,7 +736,7 @@ If the first font does not work, the browser will try the next one, and the next
     color: yellow;
 }
 
-#pseudoandhtml-elements > p > a.profile:hover {
+#pseudoandhtml-classes > p > a.profile:hover {
     color: rgb(255, 98, 125);
     font-size: 20px;
 }
@@ -788,4 +788,56 @@ If the first font does not work, the browser will try the next one, and the next
 
 #lang-pseudoclass q:lang(no) {
     quotes: "~""~";
+}
+
+/* Pseudo Elements Practice */
+
+.pseudo-elements-practice {
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+#firstline-pseudoelement p::first-line {
+    color: red;
+    font-variant: small-caps;
+}
+
+#firstletter-pseudoelement p::first-letter {
+    color: red;
+    font-size: xx-large;
+}
+
+#pseudoelementsandhtmlclasses p.pseudoelements-p1::first-letter{
+    color: blue;
+    font-size: 200%;
+}
+
+
+#multiple-pseudoelements p::first-letter {
+    color: red;
+    font-size: 40px;
+}
+
+#multiple-pseudoelements p::first-line {
+    color: #0716f0;
+    font-size: 23px;
+}
+
+#beforepseudoelement-div1 h1::before {
+    content: url(https://www.w3schools.com/css/smiley.gif);
+}
+
+#afterpseudoelement-div1 h1::after {
+    content: url(https://www.w3schools.com/css/smiley.gif);
+}
+
+#marker-pseudoelement ::marker {
+    color: sandybrown;
+    font-size: 24px;
+}
+
+#selection-pseudoelement ::selection {
+    color: red;
+    background-color: yellow;
 }
