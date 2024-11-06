@@ -841,3 +841,266 @@ If the first font does not work, the browser will try the next one, and the next
     color: red;
     background-color: yellow;
 }
+
+/* Navigation Bar Practice */
+
+/* Vertical Bar */
+
+.navigation-bar {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+#navbar-ver1 ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    background-color: rgba(230, 227, 227, 0.926);
+}
+
+#navbar-ver1 li a {
+    display: block;
+    color: black;
+    padding: 8px 16px ;
+    text-decoration: none;
+}
+
+#navbar-ver1 li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+#navbar-ver2 ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    background-color: rgba(230, 227, 227, 0.926);
+}
+
+#navbar-ver2 li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#navbar-ver2 li a.active {
+    background-color: #22b65d;
+    color: white;
+}
+
+#navbar-ver2 li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+#navbar-ver3 ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #e6e3e3ec;
+    width: 200px;
+    border: 1px solid #555;
+}
+
+#navbar-ver3 li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#navbar-ver3 li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+#navbar-ver3 li:last-child {
+    border-bottom: none;
+}
+
+#navbar-ver3 li a.active {
+    background-color: #22b65d;
+    color: white;
+}
+
+#navbar-ver3 li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+#navbarver4-divbody ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: #e6e3e3ec;
+    width: 25%;
+    position: absolute; /* it should be fixed if you dont want the nav bar to scroll with screen*/
+    height: 1000px;
+    overflow: auto;
+}
+
+#navbarver4-divbody li a {
+    display: block;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: black;
+}
+
+#navbarver4-divbody li a.active {
+    background-color: #22b65d;
+    color: white;    
+}
+
+#navbarver4-divbody li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+/* Horizontal Bar */
+
+#navbar-hor1 ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar-hor1 li {
+    float: left;
+}
+
+#navbar-hor1 li a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#navbar-hor1 li a:hover {
+    background-color: #111;
+}
+
+#navbar-hor2 ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar-hor2 li {
+    float: left;
+}
+
+#navbar-hor2 li a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+#navbar-hor2 li a.active {
+    background-color: #22b65d;
+}
+
+#navbar-hor2 li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#navbar-hor3 ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar-hor3 li {
+    float: left;
+}
+
+#navbar-hor3 li a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#navbar-hor3 li a.active {
+    background-color: #22b65d;
+}
+
+#navbar-hor3 li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#navbar-hor4 ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar-hor4 li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+#navbar-hor4 li:last-child {
+    border-right: none;
+}
+
+#navbar-hor4 li a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#navbar-hor4 li a.active {
+    background-color: #22b65d;
+}
+
+#navbar-hor4 li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#horbar5-divbody ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    top: 0; /* If you want the nav bar to stay in bottom use "bottom : 0;" and remove margin from inline css from div*/
+    position: static; /* position should be fixed to make the nav bar to also scroll when web page is scrolled*/
+}
+
+#horbar5-divbody li {
+    float: left;
+}
+
+#horbar5-divbody li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+#horbar5-divbody li a.active {
+    background-color: #22b65d;
+}
+
+#horbar5-divbody li a:hover:not(.active) {
+    background-color: #111;
+}
+
