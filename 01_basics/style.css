@@ -1441,3 +1441,89 @@ If the first font does not work, the browser will try the next one, and the next
 #imagecard-container {
     padding: 10px;
 }
+
+/* Transitions */
+
+.transitions {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+#transition-div1 {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    transition: width 2s;
+}
+
+#transition-div1:hover {
+    width: 300px;
+}
+
+#transition-div2 {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    transition: width 2s, height 4s;
+}
+
+#transition-div2:hover {
+    width: 300px;
+    height: 300px;
+}
+
+.transition-timing > div {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    transition: width 3s;
+}
+
+#transition-timing-div1 {transition-timing-function: linear;}
+#transition-timing-div2 {transition-timing-function: ease;}
+#transition-timing-div3 {transition-timing-function: ease-in;}
+#transition-timing-div4 {transition-timing-function: ease-out;}
+#transition-timing-div5 {transition-timing-function: ease-in-out;}
+
+
+.transition-timing > div:hover {
+    width: 500px;
+}
+
+#transition-delay {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(107, 195, 224);
+    transition: width 3s;
+    transition-delay: 2s;
+}
+
+#transition-delay:hover {
+    width: 500px;
+}
+
+#transition-transformation {
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+    transition: width 2s, height 2s, transform 2s, background-color 2s;
+}
+
+#transition-transformation:hover {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 66, 154);
+    transform: rotate(180deg);
+}
+
+#transition-shorthand {
+    width: 100px;
+    height: 100px;
+    background-color: lightseagreen;
+    transition: width 2s linear 2s;
+}
+
+#transition-shorthand:hover {
+    width: 500px;
+}
