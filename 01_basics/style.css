@@ -1104,3 +1104,231 @@ If the first font does not work, the browser will try the next one, and the next
     background-color: #111;
 }
 
+
+/* Gradient Practice */
+
+.gradient {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+#lineargrad-div1 {
+    height: 150px;
+    background-color: #3B1E54;  /* For browsers that do not support gradients */
+    background-image: linear-gradient(#3B1E54, #9B7EBD);
+}
+
+#lineargrad-div2 {
+    height: 150px;
+    background-color: #3B1E54;  /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #3B1E54, #9B7EBD);
+}
+
+#lineargrad-div3 {
+    height: 150px;
+    background-color: #3B1E54;  /* For browsers that do not support gradients */
+    background-image: linear-gradient(to top left, #3B1E54, #9B7EBD);
+}
+
+#anglegrad-div1 {
+    height: 100px;
+    background-color: #FF4545;  /* For browsers that do not support gradients */
+    background-image: linear-gradient(0deg, #FF4545, #FCF596);
+}
+
+#anglegrad-div2 {
+    height: 100px;
+    background-color: #FF4545;  /* For browsers that do not support gradients */
+    background-image: linear-gradient(90deg, #FF4545, #FCF596);
+}
+
+#anglegrad-div3 {
+    height: 100px;
+    background-color: #FF4545;  /* For browsers that do not support gradients */
+    background-image: linear-gradient(180deg, #FF4545, #FCF596);
+}
+
+#anglegrad-div4 {
+    height: 100px;
+    background-color: #FF4545;  /* For browsers that do not support gradients */
+    background-image: linear-gradient(-90deg, #FF4545, #FCF596);
+}
+
+#anglegrad-div5 {
+    height: 300px;
+    background-color: #FF4545;  /* For browsers that do not support gradients */
+    background-image: linear-gradient(20deg, #FF4545, #FCF596);
+}
+
+#multiplecolorgrad-div1 {
+    height: 200px;
+    background-color: #624E88;  /* For browsers that do not support gradients */
+    background-image: linear-gradient(#624E88, #CB80AB, #E6D9A2);
+}
+
+#multiplecolorgrad-div2 {
+    height: 200px;
+    background-color: #624E88;  /* For browsers that do not support gradients */
+    background-image: linear-gradient(#583894, #ff73c2, #efd975, #E85C0D, #821131);
+}
+
+#multiplecolorgrad-div3 {
+    height: 200px;
+    background-color: #624E88;  /* For browsers that do not support gradients */
+    background-image: linear-gradient(#492a82 10%, #c14d8e 20%, #E6D9A2 40%);
+}
+
+#multiplecolorgrad-div4 {
+    height: 100px;
+    background-color: #8f8d93;  /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red,orange, yellow, green, blue, indigo, violet);
+}
+
+#Transparencygrad-div1 {
+    height: 200px;
+    background-color: #f1f1f1;  /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgba(255, 250, 45, 0.3), rgb(255, 0, 0,1));
+}
+
+#repeat-linear-gradient-div {
+    height: 200px;
+    background-color: #624E88;  /* For browsers that do not support gradients */
+    background-image: repeating-linear-gradient(#492a82, #c14d8e 10%, #E6d9a2 20%);
+}
+
+#radialgrad-div1 {
+    height: 150px;
+    width: 200px;
+    background-color: #2E073F;  /* For browsers that do not support gradients */
+    background-image: radial-gradient(#2E073F, #EBD3F8, #AD49E1);
+}
+
+#radialgrad-div2 {
+    height: 150px;
+    width: 200px;
+    background-color: #2E073F;  /* For browsers that do not support gradients */
+    background-image: radial-gradient(#2E073F 5%, #EBD3F8 15%, #AD49E1 60%);
+}
+
+#radialgrad-div3 {
+    height: 150px;
+    width: 200px;
+    background-color: #2E073F;  /* For browsers that do not support gradients */
+    background-image: radial-gradient(#2E073F, #EBD3F8, #AD49E1);
+}
+
+#radialgradshape-div1 {
+    height: 150px;
+    width: 200px;
+    background-color: #2E073F;  /* For browsers that do not support gradients */
+    background-image: radial-gradient(#2E073F, #EBD3F8, #AD49E1);
+}
+
+#radialgradshape-div2 {
+    height: 150px;
+    width: 200px;
+    background-color: #2E073F;  /* For browsers that do not support gradients */
+    background-image: radial-gradient(circle, #2E073F, #EBD3F8, #AD49E1);
+}
+
+#radialgrad-differentsize-div1 {
+    height: 200px;
+    width: 200px;
+    background-color: red;  /* For browsers that do not support gradients */
+    background-image: radial-gradient(closest-side at 60% 55%, red, yellow, black);
+}
+#radialgrad-differentsize-div2 {
+    height: 200px;
+    width: 200px;
+    background-color: red;  /* For browsers that do not support gradients */
+    background-image: radial-gradient(farthest-side at 60% 55%, red, yellow, black);
+}
+#radialgrad-differentsize-div3 {
+    height: 200px;
+    width: 200px;
+    background-color: red;  /* For browsers that do not support gradients */
+    background-image: radial-gradient(closest-corner at 60% 55%, red, yellow, black);
+}
+#radialgrad-differentsize-div4 {
+    height: 200px;
+    width: 200px;
+    background-color: red;  /* For browsers that do not support gradients */
+    background-image: radial-gradient(farthest-corner at 60% 55%, red, yellow, black);
+}
+
+#repeat-radial-grad-div {
+    width: 200px;
+    height: 200px;
+    background-color: red;  /* For browsers that do not support gradients */
+    background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+
+#conicgrad-div1 {
+    height: 200px;
+    width: 200px;
+    background-color: red;  /* For browsers that do not support gradients */
+    background-image: conic-gradient(red, yellow, green);
+}
+
+#conicgrad-div2 {
+    height: 200px;
+    width: 200px;
+    background-color: red;  /* For browsers that do not support gradients */
+    background-image: conic-gradient(red, yellow, green, blue, black);
+}
+
+#conicgrad-div3 {
+    height: 200px;
+    width: 200px;
+    background-color: red;  /* For browsers that do not support gradients */
+    background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+}
+
+#conicgrad-div4 {
+    height: 200px;
+    width: 200px;
+    background-color: red;  /* For browsers that do not support gradients */
+    background-image: conic-gradient(red, yellow, green, blue, black);
+    border-radius: 50%;
+}
+
+#conicgrad-div5 {
+    height: 200px;
+    width: 200px;
+    background-color: red;  /* For browsers that do not support gradients */
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    border-radius: 50%;
+}
+
+#conicgrad-div6 {
+    height: 200px;
+    width: 200px;
+    background-color: red;  /* For browsers that do not support gradients */
+    background-image: conic-gradient(from 90deg, red, yellow, green);
+    border-radius: 50%;
+}
+
+#conicgrad-div7 {
+    height: 200px;
+    width: 200px;
+    background-color: red;  /* For browsers that do not support gradients */
+    background-image: conic-gradient(at 30% 60%, red, yellow, green);
+    border-radius: 50%;
+}
+
+#conicgrad-div8 {
+    height: 200px;
+    width: 200px;
+    background-color: red;  /* For browsers that do not support gradients */
+    background-image: repeating-conic-gradient(red 10%, yellow 20%);
+    border-radius: 50%;
+}
+
+#conicgrad-div9 {
+    height: 200px;
+    width: 200px;
+    background-color: red;  /* For browsers that do not support gradients */
+    background-image: repeating-conic-gradient(red 0deg, red 10deg,yellow 10deg, yellow 20deg, blue 20deg, blue 30deg);
+    border-radius: 50%;
+}
