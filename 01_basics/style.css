@@ -1527,3 +1527,281 @@ If the first font does not work, the browser will try the next one, and the next
 #transition-shorthand:hover {
     width: 500px;
 }
+
+/* Animations Practice */
+
+.animation {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+#animation-div1 {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    animation-name: animation1;
+    animation-duration: 5s;
+}
+
+@keyframes animation1 {
+    from {background-color: salmon}
+    to   {background-color: rgb(178, 87, 188);}
+}
+
+#animation-div2 {
+    width: 100px;
+    height: 100px;
+    background-color: #053B50;
+    animation-name: animation2;
+    animation-duration: 20s;
+}
+
+@keyframes animation2 {
+    0%   {background-color: #053B50;}
+    25%  {background-color: #176B87;}
+    75%  {background-color: #64CCC5;}
+    100% {background-color: #c8f6ff;}
+}
+
+#animation-div3 {
+    width: 100px;
+    height: 100px;
+    background-color: #053b50;
+    position: relative;
+    animation-name: animation3;
+    animation-duration: 4s;
+    margin: auto;
+    margin-bottom: 200px;
+}
+
+@keyframes animation3 {
+    0%   {background-color: #053B50; left:0px;    top:0px;}
+    25%  {background-color: #176B87; left:-200px; top:0px;}
+    50%  {background-color: #64CCC5; left:-200px; top:200px;}
+    75%  {background-color: #c8f6ff; left:0px;    top:200px;}
+    100% {background-color: #053B50; left:0px;    top:0px;}
+}
+
+#animationdelay-div1 {
+    width: 100px;
+    height: 100px;
+    background-color: #FF9D3D;
+    position: relative;
+    animation-name: animationdelay1;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    margin-bottom: 250px;
+}
+
+@keyframes animationdelay1 {
+    0%   {background-color: #FF9D3D; left:0px; top:0px;}
+    25%  {background-color: #FFBD73; left:200px; top:0px;}
+    50%  {background-color: #FEEE91; left:200px; top:200px;}
+    75%  {background-color: #C4E1F6; left:0px; top:200px;}
+    100% {background-color: #FF9D3D; left:0px; top:0px;}
+}
+
+#animationdelay-div2 {
+    width: 100px;
+    height: 100px;
+    background-color: #FF9D3D;
+    position: relative;
+    animation-name: animationdelay2;
+    animation-duration: 4s;
+    animation-delay: -2s; /*Negative values are also allowed. If using negative values, the animation will start as if it had already been playing for N seconds.*/
+    margin-bottom: 250px;
+}
+
+@keyframes animationdelay2 {
+    0%   {background-color: #FF9D3D; left:0px; top:0px;}
+    25%  {background-color: #FFBD73; left:200px; top:0px;}
+    50%  {background-color: #FEEE91; left:200px; top:200px;}
+    75%  {background-color: #C4E1F6; left:0px; top:200px;}
+    100% {background-color: #FF9D3D; left:0px; top:0px;}
+}
+
+#animationrepeat-div1 {
+    width: 100px;
+    height: 100px;
+    background-color: #72BF78;
+    position: relative;
+    animation-name: animationrepeat1;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    margin-bottom: 250px;
+}
+
+@keyframes animationrepeat1 {
+    0%   {background-color: #72BF78; left:0px; top:0px;}
+    25%  {background-color: #A0D683; left:200px; top:0px;}
+    50%  {background-color: #D3EE98; left:200px; top:200px;}
+    75%  {background-color: #FEFF9F; left:0px; top:200px;}
+    100% {background-color: #72BF78; left:0px; top:0px;}
+}
+
+#animationrepeat-div2 {
+    width: 100px;
+    height: 100px;
+    background-color: #72BF78;
+    position: relative;
+    animation-name: animationrepeat2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-bottom: 250px;
+}
+
+@keyframes animationrepeat2 {
+    0%   {background-color: #72BF78; left:0px; top:0px;}
+    25%  {background-color: #A0D683; left:200px; top:0px;}
+    50%  {background-color: #D3EE98; left:200px; top:200px;}
+    75%  {background-color: #FEFF9F; left:0px; top:200px;}
+    100% {background-color: #72BF78; left:0px; top:0px;}
+}
+
+#animationreverse-div1 {
+    width: 100px;
+    height: 100px;
+    background-color: #A594F9;
+    position: relative;
+    animation-name: animationreverse1;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: reverse;
+    margin-bottom: 250px;
+}
+
+@keyframes animationreverse1 {
+    0%   {background-color: #A594F9; left:0px; top:0px;}
+    25%  {background-color: #CDC1FF; left:200px; top:0px;}
+    50%  {background-color: #E5D9F2; left:200px; top:200px;}
+    75%  {background-color: #F5EFFF; left:0px; top:200px;}
+    100% {background-color: #A594F9; left:0px; top:0px;}
+}
+
+#animationreverse-div2 {
+    width: 100px;
+    height: 100px;
+    background-color: #A594F9;
+    position: relative;
+    animation-name: animationreverse2;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    margin-bottom: 250px;
+}
+
+@keyframes animationreverse2 {
+    0%   {background-color: #A594F9; left:0px; top:0px;}
+    25%  {background-color: #CDC1FF; left:200px; top:0px;}
+    50%  {background-color: #E5D9F2; left:200px; top:200px;}
+    75%  {background-color: #F5EFFF; left:0px; top:200px;}
+    100% {background-color: #A594F9; left:0px; top:0px;}
+}
+
+#animationreverse-div3 {
+    width: 100px;
+    height: 100px;
+    background-color: #A594F9;
+    position: relative;
+    animation-name: animationreverse3;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+    margin-bottom: 250px;
+}
+
+@keyframes animationreverse3 {
+    0%   {background-color: #A594F9; left:0px; top:0px;}
+    25%  {background-color: #CDC1FF; left:200px; top:0px;}
+    50%  {background-color: #E5D9F2; left:200px; top:200px;}
+    75%  {background-color: #F5EFFF; left:0px; top:200px;}
+    100% {background-color: #A594F9; left:0px; top:0px;}
+}
+
+.animation-speed div {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    font-weight: bold;
+    position: relative;
+    animation: animationspeed 5s;
+}
+
+#animationspeed-div1 {animation-timing-function: linear;}
+#animationspeed-div2 {animation-timing-function: ease;}
+#animationspeed-div3 {animation-timing-function: ease-in;}
+#animationspeed-div4 {animation-timing-function: ease-out;}
+#animationspeed-div5 {animation-timing-function: ease-in-out;}
+
+@keyframes animationspeed {
+    from {left: 0px;}
+    to   {left: 300px;}
+}
+
+#animationfillmode-div1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(250, 81, 81);
+    position: relative;
+    animation-name: animationfillmode1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    margin-bottom: 250px;
+}
+
+@keyframes animationfillmode1 {
+    from {top: 0px;}
+    to {top: 200px; background-color: rgb(255, 132, 214);}
+}
+
+#animationfillmode-div2 {
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    position: relative;
+    animation-name: animationfillmode2;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+    margin-bottom: 250px;
+}
+
+@keyframes animationfillmode2 {
+    from {top: 0px; background-color: rgb(114, 190, 215);}
+    to {top: 200px;}
+}
+
+#animationfillmode-div3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(250, 81, 81);
+    position: relative;
+    animation-name: animationfillmode3;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+    margin-bottom: 250px;
+}
+
+@keyframes animationfillmode3 {
+    from {top: 0px; background-color: green;}
+    to {top: 200px; background-color: greenyellow;}
+}
+
+#animation-shorthand {
+    width: 100px;
+    height: 100px;
+    background-color: #850F8D;
+    position: relative;
+    animation: animationshorthand 8s linear infinite alternate;
+    margin: 0px auto 250px ;
+}
+
+@keyframes animationshorthand {
+    0%   {background-color: #850F8D; left: -200px; top: 0px;}
+    25%  {background-color: #C738BD; left: 200px; top: 200px;}
+    50%  {background-color: #E49BFF; left: 200px; top: 0px;}
+    75%  {background-color: #fbd0fe; left: -200px; top: 200px;}
+    100% {background-color: #850F8D; left: -200px; top: 0px;}
+}
