@@ -1805,3 +1805,66 @@ If the first font does not work, the browser will try the next one, and the next
     75%  {background-color: #fbd0fe; left: -200px; top: 200px;}
     100% {background-color: #850F8D; left: -200px; top: 0px;}
 }
+
+/* CSS Variables */
+
+.variables {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+:root {
+    --blue: #6495ed;
+    --white: #faf0e6;
+}
+
+#var-function-divbody {
+    background-color: var(--blue);
+    padding: 2px;
+    margin: 1px;
+}
+ .varfunction-container {
+    background-color: var(--white);
+    color: var(--blue);
+    padding: 15px;
+    margin: 10px;
+ }
+
+ .varfunction-container h2 {
+    border-bottom: 2px solid var(--blue);
+ }
+
+ .varfunction-container button {
+    background-color: var(--white);
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    padding: 5px;
+ }
+
+ #overriding-variables-divbody {
+    background-color: var(--blue);
+    padding: 2px;
+    margin: 1px;
+ }
+
+ .overridingvar-container {
+    background-color: var(--white);
+    color: var(--blue);
+    padding: 15px;
+    margin: 10px;
+ }
+
+ .overridingvar-container h2 {
+    border-bottom: 2px solid var(--blue);
+ }
+
+ .overridingvar-container button {
+    --button-blue: #0000ff;  /* new local variable */
+    background-color: var(--white);
+    color: var(--button-blue);
+    border: 1px solid var(--button-blue);
+    padding: 5px;
+ }
+
+ /* Local Variable will override Global Variable */
