@@ -1932,7 +1932,7 @@ If the first font does not work, the browser will try the next one, and the next
     border-bottom: 2px solid var(--blue);
  }
 
- @media screen and (min-width:450px) {
+ @media screen and (min-width:600px) {
     .variablesinMQ-container {    /* Local Variable */
         --font-size: 50px;    
     }
