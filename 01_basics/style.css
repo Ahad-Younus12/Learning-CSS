@@ -1868,3 +1868,75 @@ If the first font does not work, the browser will try the next one, and the next
  }
 
  /* Local Variable will override Global Variable */
+
+ .media-queries {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+ }
+
+ .MQ-ex1 {
+    overflow: auto;
+ }
+
+ #media-container {
+    margin-left: 4px;
+ }
+
+ #media-leftsidebar {
+    float: none;
+    width: auto;
+ }
+
+ #media-menulist {
+    margin: 0px;
+    padding: 0px;
+ }
+
+ .media-menuitem {
+    list-style-type: none;
+    background-color: #CDF0F6;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    margin: 4px;
+    padding: 2px;
+ }
+
+ @media screen and (min-width:480px) {
+    #media-leftsidebar {width: 200px; float: left;}
+    #media-container {margin-left: 216px;}
+ }
+
+ /* Variables in Media Queries */
+
+ .variablesinMQ-container {
+    --font-size: 25px;
+ }
+
+ .variabelsinMQ {
+    border: 2px solid black;
+    background-color: var(--blue);
+    padding: 5px;
+    margin: 5px;
+ }
+
+ .variablesinMQ-container {
+    background-color: var(--white);
+    color: var(--blue);
+    margin: 10px;
+    padding: 15px;
+    font-size: var(--font-size);
+ }
+
+ .variablesinMQ-container h2 {
+    border-bottom: 2px solid var(--blue);
+ }
+
+ @media screen and (min-width:450px) {
+    .variablesinMQ-container {    /* Local Variable */
+        --font-size: 50px;    
+    }
+    :root {
+        --blue: lightblue
+    }
+ }
