@@ -1940,3 +1940,412 @@ If the first font does not work, the browser will try the next one, and the next
         --blue: lightblue
     }
  }
+
+ /* Flexbox Practice */
+
+ .flexbox-practice {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+ }
+
+ .flexbox-container {
+    display: flex;
+    background-color: dodgerblue;
+ }
+
+ .flexbox-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+ }
+
+ .flexcontainerproperty-direction-column {
+    display: flex;
+    flex-direction: column;
+    background-color: dodgerblue;
+ }
+
+ .flexcontainerproperty-direction-column > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+ }
+
+.flexcontainerproperty-direction-columnreverse {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: dodgerblue;
+}
+
+.flexcontainerproperty-direction-columnreverse > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.flexcontainerproperty-direction-row {
+    display: flex;
+    flex-direction: row;
+    background-color: dodgerblue;
+}
+
+.flexcontainerproperty-direction-row > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.flexcontainerproperty-direction-rowreverse {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: dodgerblue;
+}
+
+.flexcontainerproperty-direction-rowreverse > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.flexcontainerproperty-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: dodgerblue;
+}
+
+.flexcontainerproperty-wrap > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.flexcontainerproperty-nowrap {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: dodgerblue;
+}
+
+.flexcontainerproperty-nowrap > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.flexcontainerproperty-wrapreverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: dodgerblue;
+}
+
+.flexcontainerproperty-wrapreverse > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.flexflow-property {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    background-color: dodgerblue;
+}
+
+.flexflow-property > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.justifycontentproperty-center {
+    display: flex;
+    justify-content: center;
+    background-color: dodgerblue;
+}
+
+.justifycontentproperty-center > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.justifycontentproperty-flexstart {
+    display: flex;
+    justify-content: flex-start;
+    background-color: dodgerblue;
+}
+
+.justifycontentproperty-flexstart > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.justifycontentproperty-flexend {
+    display: flex;
+    justify-content: flex-end;
+    background-color: dodgerblue;
+}
+
+.justifycontentproperty-flexend > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.justifycontentproperty-spacearound {
+    display: flex;
+    justify-content: space-around;
+    background-color: dodgerblue;
+}
+
+.justifycontentproperty-spacearound > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+.justifycontentproperty-spacebetween {
+    display: flex;
+    justify-content: space-between;
+    background-color: dodgerblue;
+}
+
+.justifycontentproperty-spacebetween > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.alignitems-center {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    background-color: dodgerblue;
+}
+
+.alignitems-center > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.alignitems-flexstart {
+    display: flex;
+    align-items: flex-start;
+    height: 200px;
+    background-color: dodgerblue;
+}
+
+.alignitems-flexstart > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.alignitems-flexend {
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+    background-color: dodgerblue;
+}
+
+.alignitems-flexend > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.alignitems-stretch {
+    display: flex;
+    align-items: stretch;
+    height: 200px;
+    background-color: dodgerblue;
+}
+
+.alignitems-stretch > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.alignitems-baseline {
+    display: flex;
+    align-items: baseline;
+    background-color: dodgerblue;
+}
+
+.alignitems-baseline > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.aligncontent-spacebetween {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: dodgerblue;
+}
+
+.aligncontent-spacebetween > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.aligncontent-spacearound {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background-color: dodgerblue;
+}
+
+.aligncontent-spacearound > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.aligncontent-stretch {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    background-color: dodgerblue;
+}
+
+.aligncontent-stretch > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.aligncontent-center {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: dodgerblue;
+}
+
+.aligncontent-center > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.aligncontent-flexstart {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: dodgerblue;
+}
+
+.aligncontent-flexstart > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.aligncontent-flexend {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    background-color: dodgerblue;
+}
+
+.aligncontent-flexend > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.perfect-center {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+} 
+
+.perfect-center > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    height: 100px;
+}
