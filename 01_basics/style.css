@@ -2349,3 +2349,98 @@ If the first font does not work, the browser will try the next one, and the next
     width: 100px;
     height: 100px;
 }
+
+.flexitemproperty-order {
+    display: flex;
+    background-color: #f1f1f1;
+}
+
+.flexitemproperty-order > div {
+    background-color: dodgerblue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.flexitemproperty-flexgrow {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+
+.flexitemproperty-flexgrow > div {
+    background-color: dodgerblue;
+    color: white;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.flexitemproperty-flexshrink {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+
+.flexitemproperty-flexshrink > div {
+    background-color: dodgerblue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.flexitemproperty-flexbasis {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+
+.flexitemproperty-flexbasis > div {
+    background-color: dodgerblue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.flexitemproperty-flex {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+
+.flexitemproperty-flex > div {
+    background-color: dodgerblue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.flexitemproperty-alignself {
+    display: flex;
+    align-items: flex-start;
+    height: 200px;
+    background-color: #f1f1f1;
+}
+
+.flexitemproperty-alignself > div {
+    background-color: dodgerblue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
