@@ -2444,3 +2444,95 @@ If the first font does not work, the browser will try the next one, and the next
     line-height: 75px;
     text-align: center;
 }
+
+.flexresponsive-1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 30px;
+}
+
+.flexresponsive1-leftitem {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+}
+
+.flexresponsive1-rightitem {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+}
+
+@media (max-width:600px) {
+    .flexresponsive-1 {
+        flex-direction: column;
+    }
+}
+
+
+
+.flexresponsive-2 * {
+    box-sizing: border-box;
+}
+
+.flexresponsive-2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flexresponsive2-leftitem {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+}
+
+.flexresponsive2-rightitem {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+}
+
+@media (max-width:600px) {
+    .flexresponsive2-leftitem, .flexresponsive2-rightitem {
+        flex: 100%;
+    }
+}
+
+.responsive-image-gallery * {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.responsivegallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.responsivegallery-column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.responsivegallery-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+    .responsivegallery-column {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .responsivegallery-column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
