@@ -2536,3 +2536,244 @@ If the first font does not work, the browser will try the next one, and the next
         max-width: 100%;
     }
 }
+
+/* CSS Responsive Practice */
+
+.css-responsive {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+#cssresponsive-gridview * {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.cssresponsive-gridview-row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#cssresponsive-gridview-header {
+    background-color: rgb(125, 59, 125);
+    color: white;
+    padding: 15px;
+}
+
+.cssresponsive-gridview-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cssresponsive-gridview-menu li {
+    background-color: #33b5e5;
+    color: white;
+    padding: 8px;
+    margin-bottom: 7px;
+    box-shadow: 0 2px 4px  rgba(0, 0, 0, 0.12), 0 2px 3px  rgba(0, 0, 0, 0.24);
+}
+
+.cssresponsive-gridview-menu li:hover {
+    background-color: #0099cc;
+}
+
+
+#cssresponsive-mediaqueries * {
+    box-sizing: border-box;
+}
+
+.cssresponsive-mediaqueries-row {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#cssresponsive-mediaqueries-header {
+    background-color: rgb(125, 59, 125);
+    color: white;
+    padding: 15px;
+}
+
+.cssresponsive-mediaqueries-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cssresponsive-mediaqueries-menu li {
+    background-color: #33b5e5;
+    color: white;
+    padding: 8px;
+    margin-bottom: 7px;
+    box-shadow: 0 2px 4px  rgba(0, 0, 0, 0.12), 0 2px 3px  rgba(0, 0, 0, 0.24);
+}
+
+.cssresponsive-mediaqueries-menu li:hover {
+    background-color: #0099cc;
+}
+
+#cssresponsive-mediaqueries-sidecolumn {
+    background-color: #33b5e5;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 2px 4px  rgba(0, 0, 0, 0.12), 0 2px 3px  rgba(0, 0, 0, 0.24);
+}
+
+#cssresponsive-mediaqueries-footer {
+    background-color: #0099cc;
+    color: white;
+    padding: 15px;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* For Mobile Phones */
+
+[class*="col-"] {
+    width: 100%;
+}
+
+/* For Tablets */
+
+@media screen and (min-width:600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+/* For Desktop */
+
+@media screen and (min-width:768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/* It is recommended to design for Mobile first. This will make the page display faster on smaller devices */
+
+#cssresponsive-gridview-orientation {
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+@media only screen and (orientation:landscape) {
+    #cssresponsive-gridview-orientation {
+        background-color: lightblue;
+    }
+}
+
+#cssresponsive-image1 img {
+    width: 100%;
+    height: auto;
+}
+
+#cssresponsive-image2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+#cssresponsive-images-bgimage1 {
+    width: 100%;
+    height: 300px;
+    border: 2px solid red;
+    background-image: url("../image, videos files/vase.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#cssresponsive-images-bgimage2 {
+    width: 100%;
+    height: 300px;
+    border: 2px solid red;
+    background-image: url("../image, videos files/vase.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#cssresponsive-images-bgimage3 {
+    width: 100%;
+    height: 300px;
+    border: 2px solid red;
+    background-image: url("../image, videos files/vase.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cssresponsive-images-bgimage4i {
+    height: 400px;
+    width: 267px;
+    background-image: url("../image, videos files/Vase.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width:500px) {
+    #cssresponsive-images-bgimage4i {
+        background-image: url("../image, videos files/Tree.jpg");
+        height: 185px;
+        background-size: cover;
+    }
+}
+
+/* with min-device-width media query property */
+
+#cssresponsive-images-bgimage4ii {
+    height: 400px;
+    width: 267px;
+    background-image: url("../image, videos files/Vase.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-device-width:500px) {
+    #cssresponsive-images-bgimage4ii {
+        background-image: url("../image, videos files/Snow.jpg");
+        height: 185px;
+        background-size: cover;
+    }
+}
+
+#cssresponsive-video > video {
+    max-width: 100%;
+    height: auto;
+}
